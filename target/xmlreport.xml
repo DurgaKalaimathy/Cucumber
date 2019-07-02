@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.006986">
+<testcase classname="Test background keyword" name="add to cart" time="0.006441">
+<system-out><![CDATA[Given app displays welcome settings.........................................passed
+Given user adding the searched product to cart..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test background keyword" name="signout" time="0.000545">
+<system-out><![CDATA[Given app displays welcome settings.........................................passed
+Given user signed out.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
