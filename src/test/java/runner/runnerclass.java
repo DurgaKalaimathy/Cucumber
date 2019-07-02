@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/main/resources/cucum6.feature"}, 
 		glue="stepdef",
-		plugin="html:target/html-report")
-		//plugin="json:target/json-report")
+		//plugin="html:target/html-report")
+		plugin="json:target/json-report")
 		//plugin="junit:target/xmlreport.xml",
        // tags={"@smoke"})
        //tags={"@unit","@smoke"})//AND
